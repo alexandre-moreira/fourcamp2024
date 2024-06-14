@@ -1,6 +1,9 @@
 programa
 {
-	
+	/*
+		* Dado um raio de um circulo, obter a sua área (utilizar área=3,1416 * raio quadrado).
+		*
+	*/
 	funcao inicio()
 	{
 		real area, raio
@@ -19,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 188; 
+ * @POSICAO-CURSOR = 227; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
