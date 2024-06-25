@@ -1,10 +1,10 @@
 programa
-	{	
+	{	
 	inclua biblioteca Tipos --> tp
 	inclua biblioteca Texto     --> txt
 	inclua biblioteca Arquivos  --> arq
 	
-	inteiro func, qtde=0,qtdeClientesPremiuns=0, saldoTotal=0
+	inteiro func, qtde=0,qtdeClientesPremiuns=0, saldoTotal=0
 	funcao inicio()
 	{
 		inicializar()
@@ -21,7 +21,6 @@ programa
 		cadeia linha
 		cadeia saldo
 		inteiro soma
-		logico registro_encontrado=falso
 			
 		enquanto(nao arq.fim_arquivo(func)){
 			linha = arq.ler_linha(func)
@@ -50,7 +49,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 804; 
+ * @POSICAO-CURSOR = 440; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,11 +1,12 @@
 programa
 {
-	real vendas[12]
-	inteiro mes = 0
-	real valorVenda = 0
+	
 	
 	funcao inicio()
 	{
+	real vendas[12]
+	inteiro mes = 0
+	real valorVenda = 0
 		para(mes=0; mes<12; mes++){
 			vendas[mes]=0.0
 		}
@@ -40,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 540; 
+ * @POSICAO-CURSOR = 36; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
